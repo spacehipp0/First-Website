@@ -1,0 +1,42 @@
+body {
+	margin: 0px;     
+}
+
+p {
+    margin-bottom: 4px;
+}
+
+div {
+    padding: 10px;
+    margin-left: 30px;
+    
+}
+
+input {
+    height : 30px;
+}
+
+h1 {
+    margin-left: 10px;
+}
+
+
+.big {
+    width: 50%;
+    height: 500px;
+    background-color: aqua;
+    margin: auto;
+}
+ 
+
+.contact-Firstname {
+    float: left;
+}
+
+.contact-Lastname {
+    float: left;
+}
+
+input[type=email] {
+    width: 91%;
+}
