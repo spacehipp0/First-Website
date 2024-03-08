@@ -1,0 +1,116 @@
+div {
+    margin: 0px;
+}
+
+p {
+    margin: 0px;
+    padding: 0px 0px 10px 30px;
+    font-size: 20px;
+}
+
+input {
+    border: 2px solid #e2e2e3;
+    border-radius: 5px;
+}
+
+input[type=text] {
+    margin-left: 30px;
+    height: 35px;
+    width: 72%;
+}
+    
+
+
+input[type=email] {
+    margin-left: 30px;
+    height: 35px;
+    width: 86%
+}
+
+input[type=submit] {
+    width: 45%;
+    background-color: #efda3c;
+    font-size: 25px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    margin: 0px 120px;
+}
+
+input[type=checkbox] {
+    margin-left: 30px;
+    border: 2px solid #e2e2e3;
+    border-radius: 5px;
+    
+    
+}
+.main-box {
+    height: 700px;
+    margin: auto;
+    border-color: black;
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 600px;
+    
+}
+
+.title {
+    width: 100%;
+    height: 18%;
+
+    
+}
+
+h1 {
+    padding: 20px;
+    font-size: 40px
+}
+.email-box {
+    width: 100%;
+    height: 18%;
+}
+
+.first-name-box {
+    width: 50%;
+    height: 18%;
+    float: left;
+}
+
+
+
+.last-name-box {
+    width: 50%;
+    height: 20%;
+    float: left;
+}
+
+
+.Message-box {
+    width: 100%;
+    height: 50%;
+}
+
+.sub-box {
+    width: 50%;
+    height: 12%;
+    float: left;
+}
+
+.send-box {
+    width: 50%;
+    height: 12%;
+    float: left;
+}
+
+textarea {
+    width: 86%;
+    margin-left: 30px;
+    resize: none;
+    height: 130px;
+}
+
+.M-box {
+    border: 2px solid #e2e2e3;
+    border-radius:5px;
+}

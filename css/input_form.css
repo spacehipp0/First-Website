@@ -31,12 +31,30 @@ h1 {
 
 .contact-Firstname {
     float: left;
+    
 }
 
 .contact-Lastname {
     float: left;
+    
 }
 
 input[type=email] {
     width: 91%;
+}
+
+.send-box {
+    float: left;
+    background-color: black;
+    margin-left: px;
+}
+
+.subscribe {
+    float: left;
+    width: 300px;
+}
+
+.message-box {
+    width: 90%;
+    height: 140px;
 }
