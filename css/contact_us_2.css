@@ -1,5 +1,6 @@
 div {
     margin: 0px;
+    box-sizing: border-box;
 }
 
 p {
@@ -19,8 +20,6 @@ input[type=text] {
     width: 72%;
 }
     
-
-
 input[type=email] {
     margin-left: 30px;
     height: 35px;
@@ -41,9 +40,8 @@ input[type=checkbox] {
     margin-left: 30px;
     border: 2px solid #e2e2e3;
     border-radius: 5px;
-    
-    
 }
+
 .main-box {
     height: 700px;
     margin: auto;
@@ -57,15 +55,14 @@ input[type=checkbox] {
 
 .title {
     width: 100%;
-    height: 18%;
-
-    
+    height: 18%;  
 }
 
 h1 {
     padding: 20px;
     font-size: 40px
 }
+
 .email-box {
     width: 100%;
     height: 18%;
@@ -76,7 +73,6 @@ h1 {
     height: 18%;
     float: left;
 }
-
 
 
 .last-name-box {
@@ -101,6 +97,7 @@ h1 {
     width: 50%;
     height: 12%;
     float: left;
+    box-sizing: border-box;
 }
 
 textarea {
