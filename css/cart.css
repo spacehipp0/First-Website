@@ -1,8 +1,62 @@
+div {
+    padding: 10px;
+    margin-left: 10px;
+}   
+
 
 td, th {
+    border: none;
     border: 1px solid black;
 }
 
 table {
-    border-collapse: collapse;
+    
+    margin-left: 10px;
+    width: 90%;
+    height: 60%;
+    background-color: white;
+}
+
+
+
+
+
+.background {
+    width: 100%;
+    max-width: 700px;
+    background-color: aqua;
+    height: 500px;
+    
+}
+
+.title {
+    width: 70%;
+    height: 15%;
+    background-color: yellow;
+    
+    
+}
+
+.hyper-link {
+    width: 45%;
+    background-color: blueviolet;
+    height: 10%;
+    float: left;
+}
+
+.button {
+    width: 45%;
+    background-color: salmon;
+    height: 10%;
+    float: left;
+}
+
+
+
+.image-box {
+    float: left;
+}
+
+.image-name {
+    float: left;
 }
