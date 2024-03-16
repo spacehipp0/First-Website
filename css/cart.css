@@ -1,3 +1,8 @@
+a {
+    color: black;
+    font-weight: 200px;
+}
+
 div {
     padding: 10px;
     margin-left: 10px;
@@ -5,26 +10,29 @@ div {
 
 
 td, th {
-    border: none;
-    border: 1px solid black;
+    border-bottom: 1px solid #b4cbd3;
+    color: #b4cbd3;
+    padding: 15px;
 }
 
 table {
-    
-    margin-left: 10px;
+    border-spacing: 0px;
     width: 90%;
     height: 60%;
     background-color: white;
+    border-radius: 5px;
+    max-width: 700px;
+    margin: auto;
 }
 
-
-
-
+h1 {
+   color: #143761;
+}
 
 .background {
     width: 100%;
     max-width: 700px;
-    background-color: aqua;
+    background-color: #b4cbd3;
     height: 500px;
     
 }
@@ -32,21 +40,16 @@ table {
 .title {
     width: 70%;
     height: 15%;
-    background-color: yellow;
-    
-    
 }
 
 .hyper-link {
     width: 45%;
-    background-color: blueviolet;
     height: 10%;
     float: left;
 }
 
 .button {
     width: 45%;
-    background-color: salmon;
     height: 10%;
     float: left;
 }
@@ -59,4 +62,15 @@ table {
 
 .image-name {
     float: left;
+}
+
+input[type=submit] {
+    background-color: #143761;
+    font-size: 16px;
+    border-radius: 6px;
+    border: none;
+    padding: 20px;
+    color: #b1ccd5;
+    width: 90%;
+    
 }
