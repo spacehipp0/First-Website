@@ -1,0 +1,22 @@
+코드 중복을 줄이는 방법
+
+뼈대용 class, 살점용 class를 각각 제작해라
+
+방법 
+
+<button class="main-btn bg-red">버튼</button> 이런 식으로 
+
+
+class명 작명법 : BEM 룰 따라해보자 (BLock__Element--Modifier)
+
+--    <div class="profile">
+        <img class="profile__img">
+        <h4 class="profile__title"></h4>
+        <p class="profile__content"></p>
+    </div>
+    
+    예시-- class="덩어리 이름__역할--세부특징" 
+        <p class="profile__content--red"></p>  
+        
+        
+        
